@@ -1,0 +1,18 @@
+Comandos:
+
+>git clone (+linkSSH):
+	Baixa o repositório criado no link github para a pasta local
+
+>git status
+	Verifica o status do repositorio local; branch main.
+
+>git add -A ou >git add .
+	Adicionar todos os arquivos alterados considerados para controle de versão
+
+>git commit -m "(digitar comentário)"
+	Realizar comentario no commit do arquivo
+
+>git push origin main
+	Enviar todos os commit locais para nuvem
+
+	
