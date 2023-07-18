@@ -21,18 +21,37 @@ body {
 .menu {
     width: 15%;
     background-color: aqua;
-    padding: 10px 20px 0px;
+    padding: 132px 0px 0px;
+}
+.menu ul{
+    width: 97%;
+    padding: 1px 1px 1px;
+}
+.custom {
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.73); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.73);
+    border: solid 2px
+}       
+.custom li{
+    border: dashed 1px;
+    margin-right: 0px;
+    font-size: 26px; 
+    color: black;
+}
+.custom li:hover {
+   background-color: gray; 
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(2, 68, 68);
     min-height: 150px;
 }
 .content {
-    background-color: white;
+    background-color: rgb(212, 252, 246);
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(27, 20, 85);
     min-height: 150px;
+    color: white;
 }
